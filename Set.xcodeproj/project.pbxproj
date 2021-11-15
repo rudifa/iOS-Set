@@ -36,6 +36,7 @@
 		9DE789CF2742C874008CC688 /* rfSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 9DE789CE2742C874008CC688 /* rfSwiftUI */; };
 		9DE789D32742C8F1008CC688 /* rfSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 9DE789D22742C8F1008CC688 /* rfSwiftUI */; };
 		9DE789D62742C96A008CC688 /* Seven Segment.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DE789D52742C96A008CC688 /* Seven Segment.ttf */; };
+		9DE789DA2742D25B008CC688 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9DE789D92742D25B008CC688 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		9DE789D02742C8D8008CC688 /* Set (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Set (iOS).entitlements"; sourceTree = "<group>"; };
 		9DE789D52742C96A008CC688 /* Seven Segment.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Seven Segment.ttf"; sourceTree = "<group>"; };
 		9DE789D72742C9D0008CC688 /* Set--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Set--iOS--Info.plist"; sourceTree = "<group>"; };
+		9DE789D92742D25B008CC688 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 		9DE7896E2742A9FC008CC688 = {
 			isa = PBXGroup;
 			children = (
+				9DE789D92742D25B008CC688 /* README.md */,
 				9DE789732742A9FC008CC688 /* Shared */,
 				9DE789D82742CF71008CC688 /* iOS */,
 				9DE789822742A9FF008CC688 /* macOS */,
@@ -391,6 +394,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DE789DA2742D25B008CC688 /* README.md in Resources */,
 				9DE789A12742A9FF008CC688 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
