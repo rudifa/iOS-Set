@@ -37,6 +37,16 @@
 		9DE789D32742C8F1008CC688 /* rfSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 9DE789D22742C8F1008CC688 /* rfSwiftUI */; };
 		9DE789D62742C96A008CC688 /* Seven Segment.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DE789D52742C96A008CC688 /* Seven Segment.ttf */; };
 		9DE789DA2742D25B008CC688 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9DE789D92742D25B008CC688 /* README.md */; };
+		9DE789ED2742E7CF008CC688 /* CardPackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE789E72742E7B0008CC688 /* CardPackTests.swift */; };
+		9DE789F02742E815008CC688 /* CardPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE789B92742C765008CC688 /* CardPack.swift */; };
+		9DE789F12742E816008CC688 /* CardPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE789B92742C765008CC688 /* CardPack.swift */; };
+		9DE789F22742E88C008CC688 /* GameStateScoreKeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE789E52742E7B0008CC688 /* GameStateScoreKeeperTests.swift */; };
+		9DE789F42742E894008CC688 /* GameStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE789E62742E7B0008CC688 /* GameStateTests.swift */; };
+		9DE789F62742E898008CC688 /* GameViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE789E82742E7B0008CC688 /* GameViewModelTests.swift */; };
+		9DE789F82742E8BC008CC688 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE789B82742C765008CC688 /* GameState.swift */; };
+		9DE789F92742E8BD008CC688 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE789B82742C765008CC688 /* GameState.swift */; };
+		9DE789FA2742EBE2008CC688 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE789B42742C70A008CC688 /* GameViewModel.swift */; };
+		9DE789FB2742EBF9008CC688 /* SimpleTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE789BC2742C788008CC688 /* SimpleTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +91,10 @@
 		9DE789D52742C96A008CC688 /* Seven Segment.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Seven Segment.ttf"; sourceTree = "<group>"; };
 		9DE789D72742C9D0008CC688 /* Set--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Set--iOS--Info.plist"; sourceTree = "<group>"; };
 		9DE789D92742D25B008CC688 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9DE789E52742E7B0008CC688 /* GameStateScoreKeeperTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStateScoreKeeperTests.swift; sourceTree = "<group>"; };
+		9DE789E62742E7B0008CC688 /* GameStateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStateTests.swift; sourceTree = "<group>"; };
+		9DE789E72742E7B0008CC688 /* CardPackTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPackTests.swift; sourceTree = "<group>"; };
+		9DE789E82742E7B0008CC688 /* GameViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +179,10 @@
 		9DE7898B2742A9FF008CC688 /* Tests iOS */ = {
 			isa = PBXGroup;
 			children = (
+				9DE789E72742E7B0008CC688 /* CardPackTests.swift */,
+				9DE789E52742E7B0008CC688 /* GameStateScoreKeeperTests.swift */,
+				9DE789E62742E7B0008CC688 /* GameStateTests.swift */,
+				9DE789E82742E7B0008CC688 /* GameViewModelTests.swift */,
 				9DE7898C2742A9FF008CC688 /* Tests_iOS.swift */,
 				9DE7898E2742A9FF008CC688 /* Tests_iOSLaunchTests.swift */,
 			);
@@ -454,7 +472,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DE789FA2742EBE2008CC688 /* GameViewModel.swift in Sources */,
+				9DE789ED2742E7CF008CC688 /* CardPackTests.swift in Sources */,
+				9DE789F42742E894008CC688 /* GameStateTests.swift in Sources */,
+				9DE789FB2742EBF9008CC688 /* SimpleTimer.swift in Sources */,
 				9DE7898F2742A9FF008CC688 /* Tests_iOSLaunchTests.swift in Sources */,
+				9DE789F62742E898008CC688 /* GameViewModelTests.swift in Sources */,
+				9DE789F02742E815008CC688 /* CardPack.swift in Sources */,
+				9DE789F82742E8BC008CC688 /* GameState.swift in Sources */,
+				9DE789F22742E88C008CC688 /* GameStateScoreKeeperTests.swift in Sources */,
 				9DE7898D2742A9FF008CC688 /* Tests_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,6 +490,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DE7899B2742A9FF008CC688 /* Tests_macOSLaunchTests.swift in Sources */,
+				9DE789F12742E816008CC688 /* CardPack.swift in Sources */,
+				9DE789F92742E8BD008CC688 /* GameState.swift in Sources */,
 				9DE789992742A9FF008CC688 /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -36,6 +36,10 @@ class GameViewModel: ObservableObject {
     func cheat() {
         game.cheat()
     }
+
+    func findCardIndex(by features: CardPack.Card.Features) -> Int? {
+        return game.cards.firstIndex(where: { $0.features == features })
+    }
 }
 
 extension CardPack.Card {
