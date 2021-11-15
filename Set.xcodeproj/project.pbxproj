@@ -78,7 +78,7 @@
 		9DE789C12742C7A0008CC688 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		9DE789D02742C8D8008CC688 /* Set (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Set (iOS).entitlements"; sourceTree = "<group>"; };
 		9DE789D52742C96A008CC688 /* Seven Segment.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Seven Segment.ttf"; sourceTree = "<group>"; };
-		9DE789D72742C9D0008CC688 /* Set--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Set--iOS--Info.plist"; sourceTree = "<group>"; };
+		9DE789D72742C9D0008CC688 /* Set--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Set--iOS--Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,9 +118,8 @@
 		9DE7896E2742A9FC008CC688 = {
 			isa = PBXGroup;
 			children = (
-				9DE789D72742C9D0008CC688 /* Set--iOS--Info.plist */,
-				9DE789D02742C8D8008CC688 /* Set (iOS).entitlements */,
 				9DE789732742A9FC008CC688 /* Shared */,
+				9DE789D82742CF71008CC688 /* iOS */,
 				9DE789822742A9FF008CC688 /* macOS */,
 				9DE7898B2742A9FF008CC688 /* Tests iOS */,
 				9DE789972742A9FF008CC688 /* Tests macOS */,
@@ -238,6 +237,15 @@
 				9DE789D52742C96A008CC688 /* Seven Segment.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9DE789D82742CF71008CC688 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9DE789D72742C9D0008CC688 /* Set--iOS--Info.plist */,
+				9DE789D02742C8D8008CC688 /* Set (iOS).entitlements */,
+			);
+			path = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,8 +369,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9DE7897A2742A9FF008CC688 /* Set (iOS) */,
 				9DE789802742A9FF008CC688 /* Set (macOS) */,
+				9DE7897A2742A9FF008CC688 /* Set (iOS) */,
 				9DE789872742A9FF008CC688 /* Tests iOS */,
 				9DE789932742A9FF008CC688 /* Tests macOS */,
 			);
@@ -588,13 +596,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Set (iOS).entitlements";
+				CODE_SIGN_ENTITLEMENTS = "iOS/Set (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LHA84NAPNA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Set--iOS--Info.plist";
+				INFOPLIST_FILE = "iOS/Set--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -608,7 +616,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ch.rudifa.Set;
 				PRODUCT_NAME = Set;
 				SDKROOT = iphoneos;
-				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -620,13 +628,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Set (iOS).entitlements";
+				CODE_SIGN_ENTITLEMENTS = "iOS/Set (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LHA84NAPNA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Set--iOS--Info.plist";
+				INFOPLIST_FILE = "iOS/Set--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -640,7 +648,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ch.rudifa.Set;
 				PRODUCT_NAME = Set;
 				SDKROOT = iphoneos;
-				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
