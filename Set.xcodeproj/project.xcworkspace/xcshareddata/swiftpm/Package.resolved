@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "rfSwiftUI",
+        "repositoryURL": "https://github.com/rudifa/rfSwiftUI",
+        "state": {
+          "branch": "main",
+          "revision": "32cc6801b5c934803b4df80b1b08303ff1bd9ea0",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
