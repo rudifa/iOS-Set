@@ -12,22 +12,23 @@ import SwiftUI
 #endif
 
 struct ContentView: View {
+    @ObservedObject var viewModel = GameViewModel()
     var body: some View {
         Group {
-            Text("Hello, world!")
-                .padding()
+            GameView(viewModel: viewModel)
         }
-#if os(macOS)
-    .frame(minWidth: windowSize.width,
-           maxWidth: windowSize.width,
-           minHeight: windowSize.height,
-           maxHeight: windowSize.height)
-#endif
+        #if os(macOS)
+            .frame(minWidth: windowSize.width,
+                   maxWidth: windowSize.width,
+                   minHeight: windowSize.height,
+                   maxHeight: windowSize.height)
+        #endif
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        let svModel = GameViewModel()
+        ContentView(viewModel: svModel)
     }
 }

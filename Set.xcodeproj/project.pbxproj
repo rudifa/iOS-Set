@@ -17,6 +17,24 @@
 		9DE7899F2742A9FF008CC688 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE789752742A9FC008CC688 /* ContentView.swift */; };
 		9DE789A02742A9FF008CC688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE789762742A9FF008CC688 /* Assets.xcassets */; };
 		9DE789A12742A9FF008CC688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE789762742A9FF008CC688 /* Assets.xcassets */; };
+		9DE789B52742C70A008CC688 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE789B42742C70A008CC688 /* GameViewModel.swift */; };
+		9DE789B62742C71E008CC688 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE789B42742C70A008CC688 /* GameViewModel.swift */; };
+		9DE789BA2742C765008CC688 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE789B82742C765008CC688 /* GameState.swift */; };
+		9DE789BB2742C765008CC688 /* CardPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE789B92742C765008CC688 /* CardPack.swift */; };
+		9DE789BD2742C788008CC688 /* SimpleTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE789BC2742C788008CC688 /* SimpleTimer.swift */; };
+		9DE789C22742C7A0008CC688 /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE789BE2742C7A0008CC688 /* AspectVGrid.swift */; };
+		9DE789C32742C7A0008CC688 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE789BF2742C7A0008CC688 /* GameView.swift */; };
+		9DE789C42742C7A0008CC688 /* Demos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE789C02742C7A0008CC688 /* Demos.swift */; };
+		9DE789C52742C7A0008CC688 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE789C12742C7A0008CC688 /* CardView.swift */; };
+		9DE789C62742C7AD008CC688 /* CardPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE789B92742C765008CC688 /* CardPack.swift */; };
+		9DE789C72742C7B2008CC688 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE789B82742C765008CC688 /* GameState.swift */; };
+		9DE789C82742C7B6008CC688 /* SimpleTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE789BC2742C788008CC688 /* SimpleTimer.swift */; };
+		9DE789C92742C7B9008CC688 /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE789BE2742C7A0008CC688 /* AspectVGrid.swift */; };
+		9DE789CA2742C7BC008CC688 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE789C12742C7A0008CC688 /* CardView.swift */; };
+		9DE789CB2742C7C0008CC688 /* Demos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE789C02742C7A0008CC688 /* Demos.swift */; };
+		9DE789CC2742C7C4008CC688 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE789BF2742C7A0008CC688 /* GameView.swift */; };
+		9DE789CF2742C874008CC688 /* rfSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 9DE789CE2742C874008CC688 /* rfSwiftUI */; };
+		9DE789D32742C8F1008CC688 /* rfSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 9DE789D22742C8F1008CC688 /* rfSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +67,15 @@
 		9DE789942742A9FF008CC688 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DE789982742A9FF008CC688 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		9DE7899A2742A9FF008CC688 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		9DE789B42742C70A008CC688 /* GameViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		9DE789B82742C765008CC688 /* GameState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		9DE789B92742C765008CC688 /* CardPack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPack.swift; sourceTree = "<group>"; };
+		9DE789BC2742C788008CC688 /* SimpleTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTimer.swift; sourceTree = "<group>"; };
+		9DE789BE2742C7A0008CC688 /* AspectVGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
+		9DE789BF2742C7A0008CC688 /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		9DE789C02742C7A0008CC688 /* Demos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demos.swift; sourceTree = "<group>"; };
+		9DE789C12742C7A0008CC688 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		9DE789D02742C8D8008CC688 /* Set (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Set (iOS).entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DE789CF2742C874008CC688 /* rfSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DE789D32742C8F1008CC688 /* rfSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,11 +115,13 @@
 		9DE7896E2742A9FC008CC688 = {
 			isa = PBXGroup;
 			children = (
+				9DE789D02742C8D8008CC688 /* Set (iOS).entitlements */,
 				9DE789732742A9FC008CC688 /* Shared */,
 				9DE789822742A9FF008CC688 /* macOS */,
 				9DE7898B2742A9FF008CC688 /* Tests iOS */,
 				9DE789972742A9FF008CC688 /* Tests macOS */,
 				9DE7897C2742A9FF008CC688 /* Products */,
+				9DE789D12742C8F1008CC688 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +129,10 @@
 			isa = PBXGroup;
 			children = (
 				9DE789B02742AB96008CC688 /* App */,
+				9DE789B72742C734008CC688 /* Model */,
+				9DE789B32742C6BA008CC688 /* Util */,
+				9DE789B22742C6B1008CC688 /* View */,
+				9DE789B12742C6A7008CC688 /* ViewModel */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -149,6 +184,49 @@
 			path = App;
 			sourceTree = "<group>";
 		};
+		9DE789B12742C6A7008CC688 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9DE789B42742C70A008CC688 /* GameViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9DE789B22742C6B1008CC688 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9DE789BE2742C7A0008CC688 /* AspectVGrid.swift */,
+				9DE789C12742C7A0008CC688 /* CardView.swift */,
+				9DE789C02742C7A0008CC688 /* Demos.swift */,
+				9DE789BF2742C7A0008CC688 /* GameView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9DE789B32742C6BA008CC688 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				9DE789BC2742C788008CC688 /* SimpleTimer.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		9DE789B72742C734008CC688 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DE789B92742C765008CC688 /* CardPack.swift */,
+				9DE789B82742C765008CC688 /* GameState.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9DE789D12742C8F1008CC688 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -165,6 +243,9 @@
 			dependencies = (
 			);
 			name = "Set (iOS)";
+			packageProductDependencies = (
+				9DE789CE2742C874008CC688 /* rfSwiftUI */,
+			);
 			productName = "Set (iOS)";
 			productReference = 9DE7897B2742A9FF008CC688 /* Set.app */;
 			productType = "com.apple.product-type.application";
@@ -182,6 +263,9 @@
 			dependencies = (
 			);
 			name = "Set (macOS)";
+			packageProductDependencies = (
+				9DE789D22742C8F1008CC688 /* rfSwiftUI */,
+			);
 			productName = "Set (macOS)";
 			productReference = 9DE789812742A9FF008CC688 /* Set.app */;
 			productType = "com.apple.product-type.application";
@@ -257,6 +341,9 @@
 				Base,
 			);
 			mainGroup = 9DE7896E2742A9FC008CC688;
+			packageReferences = (
+				9DE789CD2742C874008CC688 /* XCRemoteSwiftPackageReference "rfSwiftUI" */,
+			);
 			productRefGroup = 9DE7897C2742A9FF008CC688 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -307,7 +394,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DE789BB2742C765008CC688 /* CardPack.swift in Sources */,
+				9DE789B52742C70A008CC688 /* GameViewModel.swift in Sources */,
+				9DE789C22742C7A0008CC688 /* AspectVGrid.swift in Sources */,
+				9DE789BA2742C765008CC688 /* GameState.swift in Sources */,
+				9DE789C52742C7A0008CC688 /* CardView.swift in Sources */,
+				9DE789C42742C7A0008CC688 /* Demos.swift in Sources */,
+				9DE789BD2742C788008CC688 /* SimpleTimer.swift in Sources */,
 				9DE7899E2742A9FF008CC688 /* ContentView.swift in Sources */,
+				9DE789C32742C7A0008CC688 /* GameView.swift in Sources */,
 				9DE7899C2742A9FF008CC688 /* SetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,7 +411,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DE789B62742C71E008CC688 /* GameViewModel.swift in Sources */,
 				9DE7899F2742A9FF008CC688 /* ContentView.swift in Sources */,
+				9DE789C92742C7B9008CC688 /* AspectVGrid.swift in Sources */,
+				9DE789C72742C7B2008CC688 /* GameState.swift in Sources */,
+				9DE789CC2742C7C4008CC688 /* GameView.swift in Sources */,
+				9DE789CB2742C7C0008CC688 /* Demos.swift in Sources */,
+				9DE789C82742C7B6008CC688 /* SimpleTimer.swift in Sources */,
+				9DE789C62742C7AD008CC688 /* CardPack.swift in Sources */,
+				9DE789CA2742C7BC008CC688 /* CardView.swift in Sources */,
 				9DE7899D2742A9FF008CC688 /* SetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,6 +574,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Set (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LHA84NAPNA;
@@ -490,6 +594,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ch.rudifa.Set;
 				PRODUCT_NAME = Set;
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -501,6 +606,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Set (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LHA84NAPNA;
@@ -520,6 +626,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ch.rudifa.Set;
 				PRODUCT_NAME = Set;
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -733,6 +840,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9DE789CD2742C874008CC688 /* XCRemoteSwiftPackageReference "rfSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rudifa/rfSwiftUI";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9DE789CE2742C874008CC688 /* rfSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DE789CD2742C874008CC688 /* XCRemoteSwiftPackageReference "rfSwiftUI" */;
+			productName = rfSwiftUI;
+		};
+		9DE789D22742C8F1008CC688 /* rfSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DE789CD2742C874008CC688 /* XCRemoteSwiftPackageReference "rfSwiftUI" */;
+			productName = rfSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9DE7896F2742A9FC008CC688 /* Project object */;
 }
