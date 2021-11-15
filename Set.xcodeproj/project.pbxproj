@@ -97,9 +97,7 @@
 		9DE789732742A9FC008CC688 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				9DE789742742A9FC008CC688 /* SetApp.swift */,
-				9DE789752742A9FC008CC688 /* ContentView.swift */,
-				9DE789762742A9FF008CC688 /* Assets.xcassets */,
+				9DE789B02742AB96008CC688 /* App */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -139,6 +137,16 @@
 				9DE7899A2742A9FF008CC688 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		9DE789B02742AB96008CC688 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9DE789742742A9FC008CC688 /* SetApp.swift */,
+				9DE789752742A9FC008CC688 /* ContentView.swift */,
+				9DE789762742A9FF008CC688 /* Assets.xcassets */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
