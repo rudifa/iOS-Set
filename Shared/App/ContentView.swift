@@ -7,10 +7,22 @@
 
 import SwiftUI
 
+#if os(macOS)
+    let windowSize = CGSize(width: 450, height: 800)
+#endif
+
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Group {
+            Text("Hello, world!")
+                .padding()
+        }
+#if os(macOS)
+    .frame(minWidth: windowSize.width,
+           maxWidth: windowSize.width,
+           minHeight: windowSize.height,
+           maxHeight: windowSize.height)
+#endif
     }
 }
 
