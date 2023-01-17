@@ -6,11 +6,17 @@ This project implements the game app **Set** as required in [Assignment III: Set
 
 Rules of the **Set** game are described [here](https://en.wikipedia.org/wiki/Set_(card_game)).
 
-Implemented so far:
+Implemented:
 
 - most of Assignment III requirements
-- simple score keeping
+- simple time and score keeping
 - cheat
+- iOS and macOS targets
+
+
+![](Screenshot-2023-01-17-418px.jpg) 
+![](Simulator-iPhone-14-2023-01-17-418px.png)
+
 
 
 
